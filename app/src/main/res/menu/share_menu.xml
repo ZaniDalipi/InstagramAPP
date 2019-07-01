@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/share_content"
+        android:title="Share"
+        android:icon="@android:drawable/ic_menu_share"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        android:icon="@android:drawable/ic_menu_revert"
+        app:showAsAction="ifRoom"></item>
+
+
+</menu>
